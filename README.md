@@ -1,19 +1,34 @@
-Attendance Tracker
-A web-based Attendance Tracker system designed to help professors manage student attendance efficiently. The system allows professors to log in, manage students, and track attendance. It also provides functionality for generating and downloading attendance reports.
+# Attendance Tracker - College Management System
 
-Features
-Login System: Professors can log in to manage students and attendance.
-Add Students: Professors can add new students to the system with their name and division.
-View and Track Attendance: Attendance records can be tracked for each student on a daily basis.
-Attendance Report: Professors can view attendance data for each student and download reports.
-Modern UI: Built with modern web technologies for an interactive and responsive user experience.
-Technologies Used
-Frontend:
+## Overview
+The **Attendance Tracker** project is a web-based application designed to help professors manage and track student attendance for a college. Professors can log in to the system, view student lists for different divisions, mark attendance (Present/Absent), and generate reports for individual students. The system also allows adding and removing students from the database, making it easy to manage attendance data.
 
-HTML
-CSS (Bootstrap 5)
-JavaScript
-Backend:
+This project is built using **Python**, **Flask**, **SQLite**, and **Bootstrap**.
 
-Python (Flask)
-SQLite
+## Features
+- **Professor Login:** Secure login for professors to access the system.
+- **Student Management:** Add and remove students from the system.
+- **Mark Attendance:** Professors can mark attendance as Present or Absent for each student.
+- **Attendance Report:** Generate reports showing each student's attendance for a given month, displaying the number of days present and absent.
+- **Responsive UI:** A modern, mobile-friendly interface using **Bootstrap**.
+- **SQLite Database:** Simple and lightweight database to store professor, student, and attendance information.
+
+## Tech Stack
+- **Frontend:**
+  - HTML
+  - CSS
+  - Bootstrap
+- **Backend:**
+  - Python (Flask)
+  - SQLite (Database)
+- **Other:**
+  - Jinja2 (Template engine for Flask)
+
+## Requirements
+- Python 3.7 or higher
+- Flask
+- SQLite (SQLite comes pre-installed with Python)
+  
+To install the required Python packages, run the following command:
+```bash
+pip install flask
