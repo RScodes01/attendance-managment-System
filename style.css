@@ -1,0 +1,39 @@
+/* Style for the gradient background */
+.bg-gradient-primary {
+    background: linear-gradient(135deg, #6f42c1, #007bff);
+}
+
+/* Style the input fields */
+input.form-control {
+    border-radius: 30px;
+}
+
+/* Add some hover effects for buttons */
+button:hover {
+    background-color: #0056b3;
+    transition: background-color 0.3s ease;
+}
+
+/* Add spacing to the sidebar */
+.nav-link {
+    padding: 10px 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+/* Style for the list items of students */
+.list-group-item {
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.list-group-item:hover {
+    background-color: #f1f1f1;
+}
+
+/* Style for headings */
+h3, h4, h5 {
+    font-weight: 600;
+    color: #007bff;
+}
